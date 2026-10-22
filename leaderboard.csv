@@ -1,0 +1,5 @@
+Episode,Score,Burnt,Invalid,Reward,Epsilon,States,Checkpoint
+0,0.0,38.2,0.0,-7.306,1.0,995,checkpoints/q_agent_ep0.pkl
+100,0.0,38.0,0.0,-7.3,0.6058,21775,checkpoints/q_agent_ep100.pkl
+500,0.0,38.6,0.0,-7.422,0.0816,101295,checkpoints/q_agent_ep500.pkl
+1000,0.0,35.8,0.0,-6.734,0.05,198380,checkpoints/q_agent_ep1000.pkl

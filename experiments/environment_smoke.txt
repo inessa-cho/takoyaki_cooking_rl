@@ -1,0 +1,39 @@
+RESET OBSERVATION:
+(0, (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), 0, False)
+
+t=0/200 score=0 tray=0/8 sauced=False burnt=0
+cells: state(timer)
+.00 .00 .00 .00
+.00 .00 .00 .00
+.00 .00 .00 .00
+.00 .00 .00 .00
+----------------------------------------
+step=01 action=BATTER(2)        reward=+0.00 served=False burnt+=0
+step=02 action=WAIT             reward=-0.01 served=False burnt+=0
+step=03 action=BATTER(7)        reward=+0.00 served=False burnt+=0
+step=04 action=BATTER(6)        reward=+0.00 served=False burnt+=0
+step=05 action=OCTOPUS(6)       reward=+0.00 served=False burnt+=0
+step=06 action=BATTER(3)        reward=+0.00 served=False burnt+=0
+step=07 action=OCTOPUS(2)       reward=+0.00 served=False burnt+=0
+step=08 action=BATTER(1)        reward=+0.00 served=False burnt+=0
+step=09 action=BATTER(12)       reward=+0.00 served=False burnt+=0
+step=10 action=BATTER(0)        reward=+0.00 served=False burnt+=0
+step=11 action=WAIT             reward=-0.01 served=False burnt+=0
+step=12 action=OCTOPUS(1)       reward=+0.00 served=False burnt+=0
+step=13 action=BATTER(5)        reward=+0.00 served=False burnt+=0
+step=14 action=FLIP(6)          reward=+0.01 served=False burnt+=0
+step=15 action=WAIT             reward=-0.01 served=False burnt+=0
+step=16 action=OCTOPUS(5)       reward=+0.00 served=False burnt+=0
+step=17 action=BATTER(13)       reward=+0.00 served=False burnt+=0
+step=18 action=OCTOPUS(7)       reward=+0.00 served=False burnt+=0
+step=19 action=BATTER(14)       reward=+0.00 served=False burnt+=0
+step=20 action=FLIP(7)          reward=+0.01 served=False burnt+=0
+----------------------------------------
+t=20/200 score=0 tray=0/8 sauced=False burnt=0
+cells: state(timer)
+b11 o09 o14 b15
+.00 o05 C01 s01
+.00 .00 .00 .00
+b12 b04 b02 .00
+FINAL INFO:
+{'time': 20, 'score': 0, 'burnt': 0, 'tray_count': 0, 'tray_sauced': False, 'invalid_actions': 0, 'total_reward': -0.01, 'n_actions': 83}

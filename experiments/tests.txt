@@ -1,0 +1,14 @@
+test_abstraction_actions_are_valid (test_project.EnvironmentTests.test_abstraction_actions_are_valid) ... ok
+test_action_encoding (test_project.EnvironmentTests.test_action_encoding) ... ok
+test_cooking_and_burning_boundaries (test_project.EnvironmentTests.test_cooking_and_burning_boundaries) ... ok
+test_evaluation_is_frozen_and_repeatable (test_project.EnvironmentTests.test_evaluation_is_frozen_and_repeatable) ... ok
+test_invalid_action (test_project.EnvironmentTests.test_invalid_action) ... ok
+test_legacy_evaluation_seed_and_state (test_project.EnvironmentTests.test_legacy_evaluation_seed_and_state) ... ok
+test_rule_regression (test_project.EnvironmentTests.test_rule_regression) ... ok
+test_terminal_q_update (test_project.EnvironmentTests.test_terminal_q_update) ... ok
+test_tray_and_horizon (test_project.EnvironmentTests.test_tray_and_horizon) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.080s
+
+OK

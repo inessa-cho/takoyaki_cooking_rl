@@ -1,0 +1,215 @@
+REPLAY checkpoint=checkpoints/q_agent_ep100.pkl
+agent_stats={'states': 20787, 'state_actions': 19898, 'epsilon': 0.0}
+------------------------------------------------------------
+REPLAY checkpoint=checkpoints/q_agent_ep100.pkl
+t=0/200 score=0 tray=0/8 sauced=False burnt=0
+cells: state(timer)
+.00 .00 .00 .00
+.00 .00 .00 .00
+.00 .00 .00 .00
+.00 .00 .00 .00
+total_reward=0.000
+legend: .=EMPTY b=BATTER o=OCTOPUS s=SHAPED C=COOKED F=FINISHED X=BURNT
+REPLAY checkpoint=checkpoints/q_agent_ep100.pkl
+t=1/200 score=0 tray=0/8 sauced=False burnt=0
+cells: state(timer)
+.00 b01 .00 .00
+.00 .00 .00 .00
+.00 .00 .00 .00
+.00 .00 .00 .00
+last_action=BATTER(1) reward=+0.000 served=False burnt+=0
+total_reward=0.000
+legend: .=EMPTY b=BATTER o=OCTOPUS s=SHAPED C=COOKED F=FINISHED X=BURNT
+REPLAY checkpoint=checkpoints/q_agent_ep100.pkl
+t=2/200 score=0 tray=0/8 sauced=False burnt=0
+cells: state(timer)
+.00 b02 .00 .00
+.00 .00 .00 .00
+b01 .00 .00 .00
+.00 .00 .00 .00
+last_action=BATTER(8) reward=+0.000 served=False burnt+=0
+total_reward=0.000
+legend: .=EMPTY b=BATTER o=OCTOPUS s=SHAPED C=COOKED F=FINISHED X=BURNT
+REPLAY checkpoint=checkpoints/q_agent_ep100.pkl
+t=3/200 score=0 tray=0/8 sauced=False burnt=0
+cells: state(timer)
+.00 o01 .00 .00
+.00 .00 .00 .00
+b02 .00 .00 .00
+.00 .00 .00 .00
+last_action=OCTOPUS(1) reward=+0.000 served=False burnt+=0
+total_reward=0.000
+legend: .=EMPTY b=BATTER o=OCTOPUS s=SHAPED C=COOKED F=FINISHED X=BURNT
+REPLAY checkpoint=checkpoints/q_agent_ep100.pkl
+t=4/200 score=0 tray=0/8 sauced=False burnt=0
+cells: state(timer)
+.00 o02 .00 .00
+.00 .00 .00 .00
+b03 .00 .00 .00
+b01 .00 .00 .00
+last_action=BATTER(12) reward=+0.000 served=False burnt+=0
+total_reward=0.000
+legend: .=EMPTY b=BATTER o=OCTOPUS s=SHAPED C=COOKED F=FINISHED X=BURNT
+REPLAY checkpoint=checkpoints/q_agent_ep100.pkl
+t=5/200 score=0 tray=0/8 sauced=False burnt=0
+cells: state(timer)
+.00 o03 .00 .00
+.00 .00 .00 b01
+b04 .00 .00 .00
+b02 .00 .00 .00
+last_action=BATTER(7) reward=+0.000 served=False burnt+=0
+total_reward=0.000
+legend: .=EMPTY b=BATTER o=OCTOPUS s=SHAPED C=COOKED F=FINISHED X=BURNT
+REPLAY checkpoint=checkpoints/q_agent_ep100.pkl
+t=6/200 score=0 tray=0/8 sauced=False burnt=0
+cells: state(timer)
+.00 o04 b01 .00
+.00 .00 .00 b02
+b05 .00 .00 .00
+b03 .00 .00 .00
+last_action=BATTER(2) reward=+0.000 served=False burnt+=0
+total_reward=0.000
+legend: .=EMPTY b=BATTER o=OCTOPUS s=SHAPED C=COOKED F=FINISHED X=BURNT
+REPLAY checkpoint=checkpoints/q_agent_ep100.pkl
+t=7/200 score=0 tray=0/8 sauced=False burnt=0
+cells: state(timer)
+b01 o05 b02 .00
+.00 .00 .00 b03
+b06 .00 .00 .00
+b04 .00 .00 .00
+last_action=BATTER(0) reward=+0.000 served=False burnt+=0
+total_reward=0.000
+legend: .=EMPTY b=BATTER o=OCTOPUS s=SHAPED C=COOKED F=FINISHED X=BURNT
+REPLAY checkpoint=checkpoints/q_agent_ep100.pkl
+t=8/200 score=0 tray=0/8 sauced=False burnt=0
+cells: state(timer)
+b02 o06 b03 .00
+.00 .00 .00 b04
+b07 .00 .00 b01
+b05 .00 .00 .00
+last_action=BATTER(11) reward=+0.000 served=False burnt+=0
+total_reward=0.000
+legend: .=EMPTY b=BATTER o=OCTOPUS s=SHAPED C=COOKED F=FINISHED X=BURNT
+REPLAY checkpoint=checkpoints/q_agent_ep100.pkl
+t=9/200 score=0 tray=0/8 sauced=False burnt=0
+cells: state(timer)
+b03 o07 b04 .00
+.00 .00 .00 b05
+b08 b01 .00 b02
+b06 .00 .00 .00
+last_action=BATTER(9) reward=+0.000 served=False burnt+=0
+total_reward=0.000
+legend: .=EMPTY b=BATTER o=OCTOPUS s=SHAPED C=COOKED F=FINISHED X=BURNT
+REPLAY checkpoint=checkpoints/q_agent_ep100.pkl
+t=10/200 score=0 tray=0/8 sauced=False burnt=0
+cells: state(timer)
+b04 o08 b05 .00
+.00 .00 .00 b06
+b09 o01 .00 b03
+b07 .00 .00 .00
+last_action=OCTOPUS(9) reward=+0.000 served=False burnt+=0
+total_reward=0.000
+legend: .=EMPTY b=BATTER o=OCTOPUS s=SHAPED C=COOKED F=FINISHED X=BURNT
+REPLAY checkpoint=checkpoints/q_agent_ep100.pkl
+t=11/200 score=0 tray=0/8 sauced=False burnt=0
+cells: state(timer)
+o01 o09 b06 .00
+.00 .00 .00 b07
+b10 o02 .00 b04
+b08 .00 .00 .00
+last_action=OCTOPUS(0) reward=+0.000 served=False burnt+=0
+total_reward=0.000
+legend: .=EMPTY b=BATTER o=OCTOPUS s=SHAPED C=COOKED F=FINISHED X=BURNT
+REPLAY checkpoint=checkpoints/q_agent_ep100.pkl
+t=12/200 score=0 tray=0/8 sauced=False burnt=0
+cells: state(timer)
+o02 o10 b07 .00
+b01 .00 .00 b08
+b11 o03 .00 b05
+b09 .00 .00 .00
+last_action=BATTER(4) reward=+0.000 served=False burnt+=0
+total_reward=0.000
+legend: .=EMPTY b=BATTER o=OCTOPUS s=SHAPED C=COOKED F=FINISHED X=BURNT
+REPLAY checkpoint=checkpoints/q_agent_ep100.pkl
+t=13/200 score=0 tray=0/8 sauced=False burnt=0
+cells: state(timer)
+o03 o11 b08 b01
+b02 .00 .00 b09
+b12 o04 .00 b06
+b10 .00 .00 .00
+last_action=BATTER(3) reward=+0.000 served=False burnt+=0
+total_reward=0.000
+legend: .=EMPTY b=BATTER o=OCTOPUS s=SHAPED C=COOKED F=FINISHED X=BURNT
+REPLAY checkpoint=checkpoints/q_agent_ep100.pkl
+t=14/200 score=0 tray=0/8 sauced=False burnt=0
+cells: state(timer)
+o04 o12 b09 b02
+b03 .00 .00 b10
+b13 s01 .00 b07
+b11 .00 .00 .00
+last_action=FLIP(9) reward=+0.010 served=False burnt+=0
+total_reward=0.010
+legend: .=EMPTY b=BATTER o=OCTOPUS s=SHAPED C=COOKED F=FINISHED X=BURNT
+REPLAY checkpoint=checkpoints/q_agent_ep100.pkl
+t=15/200 score=0 tray=0/8 sauced=False burnt=0
+cells: state(timer)
+o05 o13 b10 b03
+b04 .00 .00 b11
+b14 s02 b01 b08
+b12 .00 .00 .00
+last_action=BATTER(10) reward=+0.000 served=False burnt+=0
+total_reward=0.010
+legend: .=EMPTY b=BATTER o=OCTOPUS s=SHAPED C=COOKED F=FINISHED X=BURNT
+REPLAY checkpoint=checkpoints/q_agent_ep100.pkl
+t=16/200 score=0 tray=0/8 sauced=False burnt=0
+cells: state(timer)
+o06 o14 b11 b04
+b05 .00 b01 b12
+b15 s03 b02 b09
+b13 .00 .00 .00
+last_action=BATTER(6) reward=+0.000 served=False burnt+=0
+total_reward=0.010
+legend: .=EMPTY b=BATTER o=OCTOPUS s=SHAPED C=COOKED F=FINISHED X=BURNT
+REPLAY checkpoint=checkpoints/q_agent_ep100.pkl
+t=17/200 score=0 tray=0/8 sauced=False burnt=0
+cells: state(timer)
+o07 o15 b12 b05
+o01 .00 b02 b13
+b16 s04 b03 b10
+b14 .00 .00 .00
+last_action=OCTOPUS(4) reward=+0.000 served=False burnt+=0
+total_reward=0.010
+legend: .=EMPTY b=BATTER o=OCTOPUS s=SHAPED C=COOKED F=FINISHED X=BURNT
+REPLAY checkpoint=checkpoints/q_agent_ep100.pkl
+t=18/200 score=0 tray=0/8 sauced=False burnt=0
+cells: state(timer)
+o08 o16 b13 b06
+o02 .00 b03 b14
+b17 s05 b04 b11
+b15 .00 .00 .00
+last_action=WAIT reward=-0.010 served=False burnt+=0
+total_reward=0.000
+legend: .=EMPTY b=BATTER o=OCTOPUS s=SHAPED C=COOKED F=FINISHED X=BURNT
+REPLAY checkpoint=checkpoints/q_agent_ep100.pkl
+t=19/200 score=0 tray=0/8 sauced=False burnt=0
+cells: state(timer)
+o09 o17 b14 b07
+o03 .00 b04 b15
+b18 C00 b05 b12
+b16 b01 .00 .00
+last_action=BATTER(13) reward=+0.000 served=False burnt+=0
+total_reward=0.000
+legend: .=EMPTY b=BATTER o=OCTOPUS s=SHAPED C=COOKED F=FINISHED X=BURNT
+REPLAY checkpoint=checkpoints/q_agent_ep100.pkl
+t=20/200 score=0 tray=0/8 sauced=False burnt=0
+cells: state(timer)
+o10 s01 b15 b08
+o04 .00 b05 b16
+b19 C01 b06 b13
+b17 b02 .00 .00
+last_action=FLIP(1) reward=+0.010 served=False burnt+=0
+total_reward=0.010
+legend: .=EMPTY b=BATTER o=OCTOPUS s=SHAPED C=COOKED F=FINISHED X=BURNT
+------------------------------------------------------------
+FINAL INFO
+{'time': 20, 'score': 0, 'burnt': 0, 'tray_count': 0, 'tray_sauced': False, 'invalid_actions': 0, 'total_reward': 0.01, 'n_actions': 83}

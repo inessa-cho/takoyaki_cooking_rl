@@ -1,0 +1,5 @@
+PASS: 51000 training rows (1000 raw + 50000 abstract)
+PASS: 1600 evaluation rows
+PASS: SVG XML parses and visual layout inspected
+PASS: all report/README relative links resolve
+PASS: 13 requested report sections

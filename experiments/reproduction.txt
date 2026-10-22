@@ -1,0 +1,8 @@
+PASS random_all episodes=0: 100 evaluation episodes reproduced
+PASS random_valid episodes=0: 100 evaluation episodes reproduced
+PASS random_abstract episodes=0: 100 evaluation episodes reproduced
+PASS rule episodes=0: 100 evaluation episodes reproduced
+PASS abstract_q episodes=1000: 100 evaluation episodes reproduced
+PASS abstract_q episodes=10000: 100 evaluation episodes reproduced
+PASS abstract_q episodes=50000: 100 evaluation episodes reproduced
+PASS raw_q episodes=1000: 100 evaluation episodes reproduced
