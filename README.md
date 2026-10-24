@@ -1,6 +1,6 @@
 # Takoyaki Cooking RL
 
-**Status: Completed** — October 22, 2026.
+A Python cooking simulation comparing rule-based agents and Q-learning on a timed 4-by-4 takoyaki grid.
 
 A small Python reinforcement-learning experiment about cooking timing and multitasking
 on a 4×4 takoyaki grid. Each episode lasts 200 one-second steps. No external packages,
@@ -61,17 +61,13 @@ it may count strategically useful waits.
 - [Agent comparison plot](experiments/final_seed42/agent_comparison.svg)
 - [Final verification record](FINAL_REVIEW.md)
 
-Legacy checkpoints and leaderboard are retained unchanged. `play_snapshot.py` supports
+Earlier checkpoints and the leaderboard are retained unchanged. `play_snapshot.py` supports
 raw-state snapshots only; use the verification command above for compact snapshots.
-No Git repository existed at closure; no commit or remote push was performed.
+The recorded closure results predate this GitHub publication.
 
 
-## Preservation implementation notes
+## Implementation notes
 
-The existing final report and measured experiment artifacts are retained. Rule, raw Q-learning and compact Q-learning have different results; the compact learner uses a hand-coded cell-selection heuristic. Historical verification statements remain dated evidence. No new full training run is part of archival work.
+The existing final report and measured experiment artifacts are retained. Rule, raw Q-learning and compact Q-learning have different results; the compact learner uses a hand-coded cell-selection heuristic. Historical verification statements remain dated evidence. No new full training run was performed during documentation review.
 
-## Maintenance status
-
-Development and maintenance are discontinued. This is a preservation snapshot, not a new release or feature-development plan. Running services and scheduled jobs are not automatically shut down by this status.
-
-This repository is intended for Private preservation. Public release requires a separate review and approval. See PRESERVATION.md for excluded material and verification limits.
+See [PRESERVATION.md](PRESERVATION.md) for the maintenance record, excluded files and verification scope.
